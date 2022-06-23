@@ -2,21 +2,22 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
+import Header from './components/Header';
 import Project from './components/Project';
 
 function App() {
 
   const [categories] = useState([
     {
-      name: 'portfolio',
+      name: 'Portfolio',
       description: 'Displays all of my projects that I have worked on so far',
     },
     {
-      name: 'contact',
+      name: 'Contact',
       description: 'A way for employers or people to contact me'
     },
     {
-      name: 'resume',
+      name: 'Resume',
       description: 'Displays my resume to show my work history'
     }
   ]);
@@ -25,7 +26,11 @@ function App() {
 
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
+      <Header
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory} />
       <main>
         <About />
         <Project />
