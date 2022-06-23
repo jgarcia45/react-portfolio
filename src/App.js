@@ -25,12 +25,12 @@ function App() {
 
   return (
     <div>
-      <Navigation></Navigation>
+      <Navigation />
       <main>
-        <About></About>
-        <Project></Project>
+        <About />
+        <Project />
       </main>
-      <Footer></Footer>
+      <Footer />
     </div>
   )
 }
