@@ -3,6 +3,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Project from './components/Project';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <main>
         <About currentCategory={currentCategory}></About>
         <Project currentCategory={currentCategory}></Project>
+        <Resume currentCategory={currentCategory}></Resume>
       </main>
       <Footer />
     </div>
