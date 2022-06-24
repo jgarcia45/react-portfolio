@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
 function Header(props) {
 
@@ -10,7 +10,7 @@ function Header(props) {
 
     useEffect(() => {
         document.title = currentCategory.name;
-    }, [currentCategory]);
+    }, []);
 
     return (
         <header>
@@ -20,13 +20,13 @@ function Header(props) {
             <nav>
                 <ul>
                     <li><a href="#About">About</a></li>
-                    {categories.map((category) => {
+                    {categories.map((category) => (
                         <li key={category.name} onClick={() => {
-                            setCurrentCategory(category.name)
+                            setCurrentCategory(category.name);
                         }}>
                             {category.name}
                         </li>
-                    })}
+                    ))}
                 </ul>
             </nav>
         </header>

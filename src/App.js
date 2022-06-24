@@ -22,7 +22,7 @@ function App() {
     }
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentCategory, setCurrentCategory] = useState('Portfolio');
 
   return (
     <div>
