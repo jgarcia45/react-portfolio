@@ -2,22 +2,25 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
-// import Header from './components/Header';
 import Project from './components/Project';
 
 function App() {
 
   const [categories] = useState([
     {
-      name: 'portfolio',
-      description: 'Displays all of my projects that I have worked on so far',
+      name: 'About',
+      description: 'Describes about who I am'
     },
     {
-      name: 'contact',
+      name: 'Portfolio',
+      description: 'Displays all of my projects that I have worked on so far'
+    },
+    {
+      name: 'Contact',
       description: 'A way for employers or people to contact me'
     },
     {
-      name: 'resume',
+      name: 'Resume',
       description: 'Displays my resume to show my work history'
     }
   ]);
@@ -36,8 +39,8 @@ function App() {
         setContactSelected={setContactSelected}
       ></Navigation>
       <main>
-        <About />
-        <Project />
+        <About currentCategory={currentCategory}></About>
+        <Project currentCategory={currentCategory}></Project>
       </main>
       <Footer />
     </div>

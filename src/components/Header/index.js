@@ -1,20 +1,14 @@
 import React, { useEffect } from 'react';
-// import About from '../About';
-// import Portfolio from '../Portfolio';
-// import Contact from '../Contact';
-// import Resume from '../Resume';
 
 function Header(props) {
 
     const {
         categories = [],
         setCurrentCategory,
+        contactSelected,
         currentCategory,
+        setContactSelected,
     } = props;
-
-    useEffect(() => {
-        document.title = currentCategory.name;
-    }, []);
 
     return (
         <header>
@@ -23,15 +17,13 @@ function Header(props) {
             </h1>
             <nav>
                 <ul>
-                    {/* <li><a href="About">About</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#Resume">Resume</a></li> */}
                     {categories.map((category) => (
                         <li key={category.name} onClick={() => {
                             setCurrentCategory(category.name);
                         }}>
-                            {category.name}
+                            <a>
+                                {category.name}
+                            </a>
                         </li>
                     ))}
                 </ul>
@@ -39,4 +31,5 @@ function Header(props) {
         </header>
     );
 }
+
 export default Header;
