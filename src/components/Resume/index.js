@@ -1,4 +1,6 @@
 import React from 'react';
+import pdf from '../../assets/Resume/jgarcia_resume.pdf';
+// https://app.rezi.io/s/09aroDdgsFPTAWV3LLwB
 
 function Resume() {
     return (
@@ -6,7 +8,7 @@ function Resume() {
             <h1 style={{ backgroundColor: "lightblue" }}>Resume</h1>
             <hr />
             <p>You can download my resume here:
-                <a href="https://app.rezi.io/s/09aroDdgsFPTAWV3LLwB"><button>Resume</button></a>
+                <a href={pdf}><button>Resume</button></a>
             </p>
 
             <h1 style={{ backgroundColor: "lightblue" }}>Education</h1>

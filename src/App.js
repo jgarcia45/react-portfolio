@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -41,8 +42,9 @@ function App() {
       ></Navigation>
       <main>
         <About currentCategory={currentCategory}></About>
-        <Project currentCategory={currentCategory}></Project>
-        <Resume currentCategory={currentCategory}></Resume>
+        {/* <Project currentCategory={currentCategory}></Project>
+        <Contact currentCategory={currentCategory}></Contact>
+        <Resume currentCategory={currentCategory}></Resume> */}
       </main>
       <Footer />
     </div>

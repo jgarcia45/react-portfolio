@@ -1,27 +1,26 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Header(props) {
 
     const {
         categories = [],
         setCurrentCategory,
-        contactSelected,
         currentCategory,
-        setContactSelected,
+        setContactSelected
     } = props;
 
     return (
         <header>
             <h1>
-                <a href="./index.html">Juan Garcia</a>
+                <a data-testid="link" href="./index.html">Juan Garcia</a>
             </h1>
             <nav>
                 <ul>
                     {categories.map((category) => (
-                        <li key={category.name} onClick={() => {
-                            setCurrentCategory(category.name);
-                        }}>
-                            <a>
+                        <li key={category.name} className={`${currentCategory.name === category.name}`}>
+                            <a onClick={() => {
+                                setCurrentCategory(category.name);
+                            }}>
                                 {category.name}
                             </a>
                         </li>
