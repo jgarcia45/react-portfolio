@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3c396c6d.css",
-    "main.js": "/react-portfolio/static/js/main.36091bea.js",
+    "main.css": "/react-portfolio/static/css/main.9b6d516d.css",
+    "main.js": "/react-portfolio/static/js/main.cc1a54da.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/run_buddy.png": "/react-portfolio/static/media/run_buddy.cbb90fffd7a4adf3f5ef.png",
+    "static/media/Horiseon.png": "/react-portfolio/static/media/Horiseon.ee0d2bc7875b9755ab01.png",
+    "static/media/doggy-daycare.png": "/react-portfolio/static/media/doggy-daycare.2e2d00d344fd2186c3a5.png",
+    "static/media/pod_portfolio.png": "/react-portfolio/static/media/pod_portfolio.765b42c103c9277329c3.png",
+    "static/media/prep_project.png": "/react-portfolio/static/media/prep_project.c8796725eedcdf4c95f4.png",
+    "static/media/emilio_huerta.png": "/react-portfolio/static/media/emilio_huerta.a625afc18d790d41eaae.png",
     "static/media/profile_photo.jpg": "/react-portfolio/static/media/profile_photo.36bc7fa9242c85a31f69.jpg",
+    "static/media/FormulaOneFrenzy.png": "/react-portfolio/static/media/FormulaOneFrenzy.f6456e606c302d07446b.png",
     "static/media/jumbotron.png": "/react-portfolio/static/media/jumbotron.7acdd612f05a0def8132.png",
+    "static/media/jgarcia_resume.pdf": "/react-portfolio/static/media/jgarcia_resume.eea3b70fd61d9cd7f024.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.3c396c6d.css.map": "/react-portfolio/static/css/main.3c396c6d.css.map",
-    "main.36091bea.js.map": "/react-portfolio/static/js/main.36091bea.js.map",
+    "main.9b6d516d.css.map": "/react-portfolio/static/css/main.9b6d516d.css.map",
+    "main.cc1a54da.js.map": "/react-portfolio/static/js/main.cc1a54da.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c396c6d.css",
-    "static/js/main.36091bea.js"
+    "static/css/main.9b6d516d.css",
+    "static/js/main.cc1a54da.js"
   ]
 }
