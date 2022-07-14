@@ -13,10 +13,6 @@ function Navigation(props) {
         setContactSelected,
     } = props;
 
-    useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);
-
     return (
         <Header
             categories={categories}

@@ -42,9 +42,9 @@ function App() {
       ></Navigation>
       <main>
         <About currentCategory={currentCategory}></About>
-        {/* <Project currentCategory={currentCategory}></Project>
+        <Project currentCategory={currentCategory}></Project>
         <Contact currentCategory={currentCategory}></Contact>
-        <Resume currentCategory={currentCategory}></Resume> */}
+        <Resume currentCategory={currentCategory}></Resume>
       </main>
       <Footer />
     </div>

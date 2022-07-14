@@ -1,4 +1,5 @@
 import React from "react";
+import habitTracker from '../../assets/Products/habitTracker.png';
 import doggyDaycare from '../../assets/Products/doggy-daycare.png';
 import formulaOne from '../../assets/Products/FormulaOneFrenzy.png';
 import runBuddy from '../../assets/Products/run_buddy.png';
@@ -18,14 +19,21 @@ function Project() {
             <div className="project-container">
                 {/* <!-- Project --> */}
                 <div className="project first-project">
-                    <a href="https://github.com/E-Lexis/Doggy-Daycare">
+                    <a href="https://github.com/jgarcia45/habit-tracker">
+                        <img src={habitTracker} alt="" />
+                        <h3>Habit Tracker</h3>
+                    </a>
+                </div>
+                {/* <!-- Project --> */}
+                <div className="project first-project">
+                    <a href="https://github.com/jgarcia45/Doggy-Daycare">
                         <img src={doggyDaycare} alt="" />
                         <h3>Doggy Daycare</h3>
                     </a>
                 </div>
                 {/* <!-- Project --> */}
                 <div className="project first-project">
-                    <a href="https://sccr0123.github.io/Formula-1-Frenzy/">
+                    <a href="https://github.com/jgarcia45/Formula-1-Frenzy">
                         <img src={formulaOne} alt="" />
                         <h3>Formula One Frenzy</h3>
                     </a>
